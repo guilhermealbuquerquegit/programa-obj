@@ -1,0 +1,3 @@
+Hello Minna-san, hoje a aula é de heranças sabem o que é? Não pois bem 
+Herança ou Subclasses são um pricipio da programação orientada a objetos, que se pode
+uma nova classe a partir de outra contendo atributos e métodos da classe primária.
