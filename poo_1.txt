@@ -1,0 +1,32 @@
+Hi Minna-san, tenho o dever de aprender Programação orientada a objetos 
+então vou compartilhar o que aprendi disso com vocês. 
+Alguns exemplos de linguagens de programação são Java, C#, Python, C++ etc... 
+apesar das diferenças na implementação são similares. Classe e objetos
+Classe: Forma de definir o tipo de dado, para definir são utilizados atributos
+e para definir o comportamento os métodos. 
+    Exemplo de uma Classe chamada empresa:
+        public class Empresa {
+            private string nome;
+            private string cnpj;
+            private string endereço;
+ 
+                public void setNome(string nome) {
+                    this.nome = "Vukel";
+                }	
+                public double getNome() {
+                    return nome;
+                }
+        }
+Fácil não?
+    Mas você deve está se perguntando o que é o private, bem:
+São modificadores e há três deles:
+    Private - Só tem uma classe que tem acesso ao atributo no exemplo acima o 'nome',
+e essa classe que tem acesso é ela mesma.
+    Protected - Tem acesso ao atributo as classes do mesmo pacote.
+/* Explicaremos pacotes mais tarde*/
+    Public - Todos tem acesso a esse atributo.
+
+Encapsulamento
+    Consiste em esconder os atributos da classe é feito via métodos (get e set) /* Mostrado no exemplo */;
+
+Na próxima aula veremos heranças e mais.
